@@ -368,20 +368,6 @@ heatMap_ggplot
 #grid.newpage()
 dev.off()
 
-
-# Tables in PDF # # https://stackoverflow.com/a/45353185
-# library(gridExtra)
-# pdf("data_output.pdf", height=11, width=11)
-# grid.table(DiffCP_DiffContig)
-# grid::grid.newpage()
-# grid.table(DiffCP_SameContig)
-# grid::grid.newpage()
-# grid.table(SameCP_DiffContig)
-# grid::grid.newpage()
-# grid.table(SameCP_SameContig)
-# grid::grid.newpage()
-# dev.off()
-
 cat("####--- PLOTTING DONE! Check \"pheatmap.pdf\" -------","\n")
 
 
